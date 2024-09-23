@@ -9,8 +9,8 @@ File::File(string name, string content, Date& date)
     : name(name), content(content), date(date) {
 }
 
-bool File::lessThan(Date& date){
-    return date.lessThan(date);
+bool File::lessThan(Date& d){
+    return date.lessThan(d);
 }
 
 void File::print(){
@@ -21,7 +21,7 @@ void File::print(){
 
 void File::printContents(){
     cout << "File name: " << name << endl;
-    cout << "Date Added: " << end;
+    cout << "Date Added: " << endl;
     date.print();
     cout << "File Contents: " << content << endl;
 }
