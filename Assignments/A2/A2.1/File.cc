@@ -9,8 +9,8 @@ File::File(string name, string content, Date& date)
     : name(name), content(content), date(date) {
 }
 
-bool File::lessThan(Date& d){
-    return date.lessThan(d);
+bool File::lessThan(Date& date){
+    return date.lessThan(date);
 }
 
 void File::print(){
