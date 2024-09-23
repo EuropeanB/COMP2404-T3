@@ -15,7 +15,7 @@ bool File::lessThan(Date& d){
 
 void File::print(){
     cout << "File name: " << name << endl;
-    cout << "Date Added: " << end;
+    cout << "Date Added: " << endl;
     date.print();
 }
 
